@@ -7,9 +7,11 @@ This is a part of Udacity's Deep Learning Nanodegree. Some codes/functions (save
 # Brief Overview of the Contents
 ### Data preprocessing
 In this section, you will see how to get the data, how to create `lookup table`, and how to `convert raw text to index based array` with the lookup table.
+
 <div style="text-align:center;">
   <img src='./conversion.png' alt='Drawing' width='500px'>
 </div>
+
 ### Build model
 In short, this section will show how to `define the Seq2Seq model in TensorFlow`. The below steps (implementation) will be covered.
 - __(1)__ define input parameters to the encoder model
@@ -27,13 +29,17 @@ In short, this section will show how to `define the Seq2Seq model in TensorFlow`
 - __(7)__ connect encoder and decoder models
   - `seq2seq_model`
 - __(8)__ train and estimate loss and accuracy
+
 <div style="text-align:center;">
   <img src="./decoder_shift.png" style="width:500px;"/>
 </div>
+
 ### Training
 This section is about putting previously defined functions together to `build an actual instance of the model`. Furthermore, it will show how to `define cost function`, how to `apply optimizer` to the cost function, and how to modify the value of the gradients in the TensorFlow's optimizer module to perform `gradient clipping`.
+
 <div style="text-align:center;">
   <img src="./gradient_clipping.png" style="width:500px;"/>
 </div>
+
 ### Prediction
 Nothing special but showing the prediction result.
