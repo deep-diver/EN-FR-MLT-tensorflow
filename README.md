@@ -1,8 +1,8 @@
 # MLT (EN to FR ) TensorFlow
 
-In this project, I am going to build language translation model called `seq2seq model or encoder-decoder model` in TensorFlow. The objective of the model is translating English sentences to French sentences. I am going to show the detailed steps, and they will answer to the questions like `how to preprocess the dataset`, `how to define inputs`, `how to define encoder model`, `how to define decoder model`, `how to build the entire seq2seq model`, `how to calculate the loss and clip gradients`, and `how to train and get prediction`.
+In this project, I am going to build language translation model called `seq2seq model or encoder-decoder model` in TensorFlow. The objective of the model is translating English sentences to French sentences. I am going to show the detailed steps, and they will answer to the questions like `how to preprocess the dataset`, `how to define inputs`, `how to define encoder model`, `how to define decoder model`, `how to build the entire seq2seq model`, `how to calculate the loss and clip gradients`, and `how to train and get prediction`. Please open the IPython notebook file to see the full workflow and detailed descriptions.
 
-This is a part of Udacity's Deep Learning Nanodegree. Some codes/functions (save, load, measuring accuracy, etc) are provided by Udacity. However, majority part is implemented by myself along with much richer explanations and references on each section.  
+This is a part of Udacity's Deep Learning Nanodegree. Some codes/functions (save, load, measuring accuracy, etc) are provided by Udacity. However, majority part is implemented by myself along with much richer explanations and references on each section.
 
 # Brief Overview of the Contents
 ### Data preprocessing
