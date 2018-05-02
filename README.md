@@ -38,7 +38,7 @@ In short, this section will show how to `define the Seq2Seq model in TensorFlow`
 This section is about putting previously defined functions together to `build an actual instance of the model`. Furthermore, it will show how to `define cost function`, how to `apply optimizer` to the cost function, and how to modify the value of the gradients in the TensorFlow's optimizer module to perform `gradient clipping`.
 
 <div style="text-align:center;">
-  <img src="./gradient_clipping.png" style="width:500px;"/>
+  <img src="./gradient_clipping.PNG" style="width:500px;"/>
 </div>
 
 ### Prediction
