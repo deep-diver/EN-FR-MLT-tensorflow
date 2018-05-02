@@ -4,6 +4,8 @@ In this project, I am going to build language translation model called `seq2seq 
 
 This is a part of Udacity's Deep Learning Nanodegree. Some codes/functions (save, load, measuring accuracy, etc) are provided by Udacity. However, majority part is implemented by myself along with much richer explanations and references on each section.
 
+You can find only the model part explained in my medium post. https://medium.com/@parkchansung/seq2seq-model-in-tensorflow-ec0c557e560f
+
 # Brief Overview of the Contents
 ### Data preprocessing
 In this section, you will see how to get the data, how to create `lookup table`, and how to `convert raw text to index based array` with the lookup table.
